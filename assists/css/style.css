@@ -360,4 +360,5 @@ ul {
 
 .app-logo img {
     width: 140px;
+    cursor: pointer;
 }
