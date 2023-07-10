@@ -255,11 +255,24 @@ h4 {
     transform: scale(1.5);
 }
 
-.testimonal {
+.testimonial {
     padding-top: 100px;
 }
 
-.testimonal .col-3 {
+.testimonial .col-3 {
     text-align: center;
     padding: 40px 20px;
+    box-shadow: 0 0 20px 0px var(--main-color);
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.testimonial .col-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3:hover {
+    transform: translateY(-10px);
 }
