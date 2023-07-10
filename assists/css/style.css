@@ -242,3 +242,11 @@ h4 {
         transform: translateY(0px);
     }
 }
+
+.categories .col-3 {
+    transition: .5s;
+}
+
+.categories .col-3:hover {
+    transform: scale(1.5);
+}
