@@ -108,7 +108,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f7f7f7;
+    background-color: var(--bg-color);
     transition: opacity 0.75s, visibility 0.75s;
 }
 
