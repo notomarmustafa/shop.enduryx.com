@@ -89,6 +89,11 @@ h1 {
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: var(--second-bg-color);
 }
 
 .header {
