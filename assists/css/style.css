@@ -11,6 +11,7 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #00abf0;
+    --stars-color: #ff523b;
 }
 
 body {
@@ -178,4 +179,26 @@ h1 {
 .title {
     text-align: center;
     margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+
+.title::after {
+    content: '';
+    background: var(--main-color);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 14px;
 }
