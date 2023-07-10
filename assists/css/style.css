@@ -216,3 +216,9 @@ h4 {
 .col-4:hover {
     transform: translateY(-5px);
 }
+
+.offer {
+    background: radial-gradient( #112e42, #00abf0);
+    margin-top: 80px;
+    padding: 30px 0;
+}
