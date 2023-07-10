@@ -276,3 +276,19 @@ h4 {
 .testimonial .col-3:hover {
     transform: translateY(-10px);
 }
+
+.fa.fa-quote-left {
+    font-size: 34px;
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: var(--text-color);
+}
+
+.testimonial .col-3 h3 {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 16px;
+}
