@@ -254,3 +254,12 @@ h4 {
 .categories .col-3:hover {
     transform: scale(1.5);
 }
+
+.testimonal {
+    padding-top: 100px;
+}
+
+.testimonal .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+}
