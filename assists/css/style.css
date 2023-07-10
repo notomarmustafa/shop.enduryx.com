@@ -228,14 +228,17 @@ h4 {
 }
 
 .offer-img {
-    animation: float 2s linear infinite;
+    animation: float 3s ease-in-out infinite;
 }
 
-@keyframes MoveUpDown {
-    0%, 100% {
-        bottom: 0;
+@keyframes float {
+    0% {
+        transform: translateY(0px);
     }
     50% {
-        bottom: 10px;
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
     }
 }
