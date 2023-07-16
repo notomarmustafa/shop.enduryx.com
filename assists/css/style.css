@@ -378,6 +378,7 @@ ul {
 .menu-icon {
     width: 28px;
     margin-left: 20px;
+    display: none;
 }
 
 /*  Media query for menu */
@@ -388,6 +389,22 @@ ul {
         top: 70px;
         left: 0;
         background: var(--bg-color);
-        width: 100px;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: var(--text-color);
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
     }
 }
