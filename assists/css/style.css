@@ -375,7 +375,7 @@ ul {
     text-align: center;
 }
 
-.menu-icon {
+#menu-icon {
     width: 28px;
     margin-left: 20px;
     display: none;
@@ -383,6 +383,12 @@ ul {
 
 /*  Media query for menu */
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
+    nav ul {
+        display: none;
+    }
     
+    #menu-icon {
+        display: block;
+    }
 }
