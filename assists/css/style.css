@@ -378,6 +378,9 @@ ul {
 #menu-icon {
     width: 28px;
     margin-left: 20px;
+    font-size: 25px;
+    color: var(--text-color);
+    cursor: pointer;
     display: none;
 }
 
