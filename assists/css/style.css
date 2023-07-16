@@ -374,3 +374,20 @@ ul {
 .copyright {
     text-align: center;
 }
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+}
+
+/*  Media query for menu */
+
+@media only screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: var(--bg-color);
+        width: 100px;
+    }
+}
