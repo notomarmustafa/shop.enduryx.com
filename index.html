@@ -17,7 +17,7 @@
                     <a href=""><img src="assists/img/Hoppies logo black transparent.png" width="125px"></a>
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="#">Home</a></li>
                         <li><a href="#products">Products</a></li>
                         <li><a href="#">About</a></li>
@@ -26,7 +26,7 @@
                     </ul>
                 </nav>
                 <a href=""><img src="assists/img/cart1.png" width="30px" height="30px"></a>
-                <div class="fa-solid fa-bars" id="menu-icon"></div>
+                <div class="fa-solid fa-bars" id="menu-icon" onclick="menutoggle()"></div>
             </div>
             <div class="row">
                 <div class="col-2">
@@ -288,19 +288,19 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-5">
-                    <img src="assists/img/logo-philips.png">
+                    <a href="https://www.usa.philips.com/"><img src="assists/img/logo-philips.png"></a>
                 </div>
                 <div class="col-5">
-                    <img src="assists/img/logo-oppo.png">
+                    <a href="https://www.oppo.com/en/"><img src="assists/img/logo-oppo.png"></a>
                 </div>
                 <div class="col-5">
-                    <img src="assists/img/Hoppies logo black transparent.png">
+                    <a href="https://hopppies.com/"><img src="assists/img/Hoppies logo black transparent.png"></a>
                 </div>
                 <div class="col-5">
-                    <img src="assists/img/logo-paypal.png">
+                    <a href="https://www.paypal.com/us/home"><img src="assists/img/logo-paypal.png"></a>
                 </div>
                 <div class="col-5">
-                    <img src="assists/img/logo-coca-cola.png">
+                    <a href="https://us.coca-cola.com/football/not-logged-in"><img src="assists/img/logo-coca-cola.png"></a>
                 </div>
             </div>
         </div>
@@ -318,7 +318,7 @@
                     </div>
                 </div>
                 <div class="footer-col-1">
-                    <img src="assists/img/Hoppies logo black transparent.png" style="width: 300px;">
+                    <a href="https://hopppies.com/"><img src="assists/img/Hoppies logo black transparent.png" style="width: 300px;"></a>
                     <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports
                         Accessible to the Many.</p>
                 </div>
@@ -345,6 +345,23 @@
             <p class="copyright">Copyright &copy; 2023 by Hoppies | All Rights Reserved</p>
         </div>
     </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px";)
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
 
 
     <div class="loader"></div>
